@@ -30,7 +30,10 @@ It has been tested on Debian (Ubuntu), OpenBSD, and macOS(Homebrew).
 
 **openIndiana/Tribblix**:
 
-	`todo`
+	Tribblix has classic-colors included in the repositories, for when one is compiling on IPS/No
+	Netowrk
+
+
 
 **macOS (homebrew)**:
 
