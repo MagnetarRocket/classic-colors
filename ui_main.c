@@ -213,7 +213,7 @@ Widget ui_setup_menu(Widget parent)
 
 
     ui_setup_file_menu(menuBar);
-        ui_setup_special_menu(menuBar); //Add in special functions later on, also there seems to be a mistorious to me bug in here(Placing it at the last will result in the contents of special.c replacing that of view.c's.)…
+    ui_setup_special_menu(menuBar); //Add in special functions later on, also there seems to be a mistorious to me bug in here(Placing it at the last will result in the contents of special.c replacing that of view.c's.)…
     ui_setup_edit_menu(menuBar);
     ui_setup_image_menu(menuBar);
     ui_setup_view_menu(menuBar);
