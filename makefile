@@ -24,7 +24,7 @@ fonts/%.h: fonts/%.otf
 %.o: %.c $(HEADERS) config.mk
 	$(CC) -c $(CFLAGS) -o $@ $<
 
-bin/classic-colors: $(XPMS) $(FONTS_H) $(OBJS)
+bin/sliver-colors: $(XPMS) $(FONTS_H) $(OBJS)
 	mkdir -p bin
 	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $(OBJS) $(LDLIBS) 
 
